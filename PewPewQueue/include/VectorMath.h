@@ -16,6 +16,8 @@ class VectorMath
         void sortDepths(float depths[], sf::Vector3f coords[]);
         float magnitude(sf::Vector3f vec1);
         float dotProduct(sf::Vector3f vec1, sf::Vector3f vec2);
+        sf::Vector3f crossProduct(sf::Vector3f vec1, sf::Vector3f vec2);
+        sf::Vector3f unitOf(sf::Vector3f vec1);
         virtual ~VectorMath();
     protected:
     private:
